@@ -1,0 +1,164 @@
+
+.navbar-brand > span{
+	font-weight: bold;
+	font-size: 25px;
+	color: #FFF;
+	font-family:Bradley Hand ITC;
+}
+
+/*;
+.content .sidebar{
+	float: right;
+	width: 20%;
+	margin-left: 1%;
+}
+.content .slider{
+	float: left;
+	width: 78%;
+	height: 700px;
+	margin-left: 1%;
+	margin-top: 4px;
+}*/
+
+
+
+.navbar-nav .nav-link {
+    font-size: 15px;
+    color: #FFF !important;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+/*
+.navbar-nav .active > .nav-link{
+	color:#ec1c23 !important
+}*/
+
+.slider .carousel-item{
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+.slider .carousel-indicators li{
+	height: 8px;
+	cursor: pointer;
+}
+
+.slider .carousel-inner{
+	display: flex;
+	/*align-items: center;*/
+	justify-content: center;
+	background: #FFF;
+}
+
+.slider .carousel-inner .overlay{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background-color: rgba(0,0,0,.6);
+	z-index: 2;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    }
+
+.slider .carousel-inner h1{
+	position: absolute;
+    color: #FFF;
+    z-index: 3;
+    font-size: 60px;
+}
+
+.slider .carousel-inner h1 span{
+	color: #FFF;
+	background-color: #ec1c23;
+}
+/*
+.slider .carousel-one{
+	background-image: url('{{ asset('assets/img/a1.jpg') }}');
+}
+.slider .carousel-two{
+	background-image: url('{{ asset('assets/img/a2.jpg') }}');
+}
+.slider .carousel-three{
+	background-image: url('{{ asset('assets/img/a3.jpg') }}');
+}*/
+
+.image{
+	width: 100%;
+    height: 10%;
+}
+.form-horizental{
+	width: 100%;
+	height: 1600px;
+}
+/*
+.form-control{
+	width: 80%;
+	height: 40px;
+}*/
+.form-horizental .container{
+	margin-bottom: 20px;
+}
+
+#form1{
+	border: 5px solid #CCC;
+	height: 800px;
+	width: 80%;
+	margin-left: 100px;
+}
+
+#formContact{
+	max-width: 400px;
+	margin: 10px auto;
+}
+
+#formContact input, #formContact textarea{
+	margin-bottom: 10px;
+	padding-left: 30px;
+}
+
+#formContact textarea{
+	height: 200px !important
+}
+
+#formContact i{
+	height: 0;
+	float: left;
+	position: relative;
+	top: -35px;
+	left: 10px;
+	color: #999;
+}
+/*
+#formContact input:not([type='submit']) + i{
+	height: 0;
+	float: left;
+	position: relative;
+	top: -35px;
+	left: 10px;
+	color: #999;
+}*/
+
+.envoie{
+	float: left;
+	position: relative;
+	top: -35px;
+	left: 10px;
+	color: #FFF !important;
+}
+
+#contact-h2{
+	    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 9px;
+    color: #252035;
+}
